@@ -1,5 +1,6 @@
 # Senaino
-[![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+[![Version](https://img.shields.io/badge/Version-FT232-green.svg)](https://github.com/TiagoPaulaSilva/Senaino) [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+
 
 Senaino it's a board inspired by Arduino UNO. With components that can easily be found in Brazil, this board will allow the students of SENAI (an important school of technical education in Brazil) to learn about soldering, electronics and programming.
 

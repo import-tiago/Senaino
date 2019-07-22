@@ -11,7 +11,7 @@ Senaino it's a board inspired by Arduino UNO. With components that can easily be
 ![Image](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Mounted%20Board%20Photo.png)
 
 
-## Recommended FTDI Driver: [Prolific 3.3.2.102](http://www.totalcardiagnostics.com/files/PL2303_64bit_Installer.exe)
+## Recommended CH340 Driver: [CH340](https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip)
 
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/kCLsp2Tkyiuxc_wsoaGmH5TEqP27jrlWlk6WgWj4JV6P9UVUNr69ELoPuKypDa9qVlzpOu6qimzW4A=s2000 "CH340")

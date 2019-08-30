@@ -13,6 +13,9 @@ Senaino is a board inspired by Arduino UNO. With components that can easily be f
 
 ## Recommended CH340 Driver: [CH340](https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip)
 
+## Bootloader
+For extremely optimized bootloader burning, see my new project: [GimmeSoul](https://github.com/TiagoPaulaSilva/GimmeSoul)
+
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/kCLsp2Tkyiuxc_wsoaGmH5TEqP27jrlWlk6WgWj4JV6P9UVUNr69ELoPuKypDa9qVlzpOu6qimzW4A=s2000 "CH340")
 

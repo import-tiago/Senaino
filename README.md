@@ -13,6 +13,9 @@ Senaino is a board inspired by Arduino UNO. With components that can easily be f
 
 ## Recommended FTDI Driver: [Prolific 3.3.2.102](http://www.totalcardiagnostics.com/files/PL2303_64bit_Installer.exe)
 
+## Bootloader
+For extremely optimized bootloader burning, see my new project: [GimmeSoul](https://github.com/TiagoPaulaSilva/GimmeSoul)
+
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/eauzI9hc91JoUhju_dOmBubujCBvYSfKuyRHfYpLHsF9SIJhyvak7PnKs-IrWwuWg4lC6Nt8OBt7eQ=s2000 "FT232")
 

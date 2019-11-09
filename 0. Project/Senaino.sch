@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20792,10 +20792,10 @@ DIN A4, landscape with extra doc field</description>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2-5" package3d_urn="urn:adsk.eagle:package:23346/2" value="100uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" value="100 nF"/>
 <part name="+5V3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330R"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="+5V5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330R"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="+5V6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="D2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="SCHOTTKY-DIODE" device="DO35-7" package3d_urn="urn:adsk.eagle:package:13314/1" value="BAT43"/>
@@ -20834,7 +20834,7 @@ DIN A4, landscape with extra doc field</description>
 <plain>
 <text x="183.515" y="26.035" size="3.81" layer="94">Tiago Silva</text>
 <text x="168.91" y="19.685" size="2.54" layer="94">github.com/TiagoPaulaSilva/Senaino</text>
-<text x="253.365" y="1.27" size="2.54" layer="94" ratio="5">2.0</text>
+<text x="253.365" y="1.27" size="2.54" layer="94" ratio="5">2.1</text>
 <text x="182.245" y="6.35" size="2.54" layer="94" ratio="5">Complete Schematic</text>
 </plain>
 <instances>
@@ -21473,6 +21473,12 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="187.96" y1="99.06" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
 <junction x="187.96" y="101.6"/>
 </segment>
+<segment>
+<pinref part="U4" gate="U1" pin="GND"/>
+<wire x1="180.34" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="142.24" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="PE" pin="PE"/>
+</segment>
 </net>
 <net name="D1" class="0">
 <segment>
@@ -21486,13 +21492,13 @@ DIN A4, landscape with extra doc field</description>
 <label x="142.24" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-<label x="223.52" y="139.7" size="1.27" layer="95" ratio="5" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="144.78" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-<junction x="218.44" y="139.7"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
+<label x="223.52" y="137.16" size="1.27" layer="95" ratio="5" xref="yes"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="144.78" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
+<junction x="210.82" y="137.16"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -21507,13 +21513,13 @@ DIN A4, landscape with extra doc field</description>
 <label x="142.24" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="137.16" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
-<label x="223.52" y="137.16" size="1.27" layer="95" ratio="5" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="137.16" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="144.78" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
-<junction x="210.82" y="137.16"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="223.52" y="139.7" size="1.27" layer="95" ratio="5" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="144.78" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<junction x="218.44" y="139.7"/>
 </segment>
 </net>
 <net name="D11" class="0">
@@ -21668,14 +21674,6 @@ DIN A4, landscape with extra doc field</description>
 <wire x1="193.04" y1="119.38" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
 <junction x="193.04" y="119.38"/>
-</segment>
-</net>
-<net name="PE" class="0">
-<segment>
-<pinref part="U4" gate="U1" pin="GND"/>
-<wire x1="180.34" y1="142.24" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="142.24" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="GND7" gate="PE" pin="PE"/>
 </segment>
 </net>
 <net name="N$3" class="0">

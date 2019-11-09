@@ -8,7 +8,7 @@
 
 Senaino is a board inspired by Arduino UNO. With components that can easily be found in Brazil, this board will allow the students of SENAI (an important school of technical education in Brazil) to learn about soldering, electronics and programming.
 
-![Image](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Mounted%20Board%20Photo.png)
+![Image](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Mounted%20Board%20Photo.jpeg)
 
 
 ## Recommended CH340 Driver: [CH340](https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip)

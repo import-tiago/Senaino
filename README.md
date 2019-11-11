@@ -1,7 +1,7 @@
 # Senaino (FT232)
-[![Version](https://img.shields.io/badge/Version-FT232-blue.svg)](https://github.com/TiagoPaulaSilva/Senaino) [![Build](https://img.shields.io/badge/Build-Stable-green.svg)](https://github.com/TiagoPaulaSilva/Senaino)
+[![Version](https://img.shields.io/badge/Version-FT232-blue.svg)](https://github.com/TiagoPaulaSilva/Senaino) ![Status](https://img.shields.io/badge/Status-Finished-green.svg)(https://github.com/TiagoPaulaSilva/Senaino)
 
-[![Version](https://img.shields.io/badge/Version-CH340-blue.svg)](https://github.com/TiagoPaulaSilva/Senaino/tree/CH340) [![Build](https://img.shields.io/badge/Build-Stable-green.svg)](https://github.com/TiagoPaulaSilva/Senaino/tree/CH340)
+[![Version](https://img.shields.io/badge/Version-CH340-blue.svg)](https://github.com/TiagoPaulaSilva/Senaino/tree/CH340) ![Status](https://img.shields.io/badge/Status-Finished-green.svg)(https://github.com/TiagoPaulaSilva/Senaino/tree/CH340)
 
 [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 

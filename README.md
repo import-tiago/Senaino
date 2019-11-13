@@ -19,6 +19,9 @@ For extremely optimized bootloader burning, see my new project: [GimmeSoul](http
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/GBXNXcUAklCbXd8iJEqVsrOeyvltFsV34-6Gyihs9-HU0y8utiIAJD7rHAac1OxkQwyVD-170A8o2Q=s2000)
 
+## Bill of Materials
+To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Components%20Silk%20Screen.png)
+
 | Qty | Parts | Description | Value | Package |
 |--|--|--|--|--|
 1|R2|PTH Resistor|150Ω ±5%|CR25 (1/4W)

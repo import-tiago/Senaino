@@ -19,6 +19,35 @@ For extremely optimized bootloader burning, see my new project: [GimmeSoul](http
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/qPUWqSev34jSImTJXFHvIYwzTDaN4v_Xr1_Vvs5jLG-HODRzklPnWW-62IWnu2WxPnEfF7zIe_F-ng=s2000)
 
+## Bill of Materials
+To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/Senaino/blob/master/2.%20Mounting/Components%20Silk%20Screen.png)
+
+
+| Qty | Parts | Description | Value | Package |
+|--|--|--|--|--|
+1|R2|PTH Resistor|150Ω ±5%|CR25 (1/4W)
+3|R1/R3/R4|PTH Resistor|330Ω ±5%|CR25 (1/4W)
+2|R6/R7|PTH Resistor|1 kΩ ±5%|CR25 (1/4W)
+1|R5|PTH Resistor|10 kΩ ±5%|CR25 (1/4W)
+5|C2/C3/C4/C7/C8|PTH Ceramic Capacitor|100 nF x 50 V|Disc
+2|C5/C6|PTH Ceramic Capacitor|22 pF x 50 V|Disc
+1|C1|PTH Electrolytic Capacitor|100 uF x 35 V|Radial
+1|D1|PTH Rectifier Diode|1N4007|DO-41
+1|D2|PTH Schottky Diode|BAT43|DO-35
+1|D3|PTH Zener Diode|1N4728|DO-41
+1|LED1|PTH LED|Green|3mm
+2|LED2/LED3|PTH LED|Yellow|3mm
+1|Q1|PTH Crystal|16 MHz|HC49/S
+1|U1|PTH Microcontroller|ATmega328P-PU|DIP-28N
+1|U1|PTH IC Socket|28 Pins|DIP-28N
+1|U2|SMD USB/Serial Converter|FT232RL|SSOP-28
+1|U3|PTH Voltage Regulator|L7805CV|TO-220
+1|X1|PTH Connector|Jack J4|2.1 mm (3 Terminals)
+1|X2|PTH Connector|Female USB Type-B|PCB 90°
+1|-|PTH Pin Header|Female 180°|1x10
+2|-|PTH Pin Header|Female 180°|1x8
+1|-|PTH Pin Header|Female 180°|1x6
+
 ### Contributing
 0. Give this project a :star:
 1. Create an issue and describe your idea

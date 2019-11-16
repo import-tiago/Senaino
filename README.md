@@ -17,7 +17,7 @@ Senaino is a board inspired by Arduino UNO. With components that can easily be f
 For extremely optimized bootloader burning, see my new project: [GimmeSoul](https://github.com/TiagoPaulaSilva/GimmeSoul)
 
 ## Schematic
-![enter image description here](https://lh3.googleusercontent.com/GBXNXcUAklCbXd8iJEqVsrOeyvltFsV34-6Gyihs9-HU0y8utiIAJD7rHAac1OxkQwyVD-170A8o2Q=s2000)
+![image](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Schematic.png)
 
 ## Bill of Materials
 To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Components%20Silk%20Screen.png)

@@ -10,6 +10,10 @@ Senaino is a board inspired by Arduino UNO. With components that can easily be f
 
 ![Image](https://github.com/TiagoPaulaSilva/Senaino/blob/master/2.%20Mounting/Mounted%20Board%20Photo.jpeg)
 
+| ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(1).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(4).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(3).jpg) |
+|--|--|--|
+| ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(2).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(6).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(5).jpg) |
+| ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(7).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(8).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(9).jpg) |
 
 ## Recommended FTDI Driver: [Prolific 3.3.2.102](http://www.totalcardiagnostics.com/files/PL2303_64bit_Installer.exe)
 

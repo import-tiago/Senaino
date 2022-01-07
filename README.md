@@ -15,7 +15,7 @@ Senaino is a board inspired by Arduino UNO. With components that can easily be f
 | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(2).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(6).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(5).jpg) |
 | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(7).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(8).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(9).jpg) |
 
-## Recommended FTDI Driver: [Prolific 3.3.2.102](http://www.totalcardiagnostics.com/files/PL2303_64bit_Installer.exe)
+## Recommended FTDI Driver: [Prolific 3.3.2.102](https://downgit.github.io/#/home?url=https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Prolific%203.3.2.102.%20(x64).exe)
 
 ## Bootloader
 For extremely optimized bootloader burning, see my new project: [GimmeSoul](https://github.com/TiagoPaulaSilva/GimmeSoul)

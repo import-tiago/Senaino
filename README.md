@@ -9,11 +9,13 @@ Senaino CH340 is the lower-cost USB-to-serial variant of the Senaino educational
 
 ![Senaino CH340 assembled board](assets/images/senaino-ch340-mounted-board.jpg)
 
-## Portfolio Case
+## Overview
 
 This branch documents the CH340G variant. The main engineering difference is the USB-to-serial interface: this version uses a CH340G instead of the FT232RL used by the main branch. That makes the board more cost-sensitive while preserving the educational workflow.
 
-My work included schematic design, PCB layout, component selection, production files, assembly references, documentation and validation of the mounted board.
+The goal was not only to make an Arduino-compatible board, but to create a reproducible hardware kit that could be fabricated, assembled and tested by students in a classroom or lab environment.
+
+The work included schematic design, PCB layout, component selection, production files, assembly references, documentation and validation of the mounted board.
 
 ## Highlights
 

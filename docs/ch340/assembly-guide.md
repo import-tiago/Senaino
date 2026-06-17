@@ -4,7 +4,7 @@ This guide is intended for classroom assembly of the Senaino CH340 board.
 
 ## Reference Files
 
-- Component placement reference: [../../assets/reference/senaino-ch340-components-silkscreen.png](../../assets/reference/senaino-ch340-components-silkscreen.png)
+- Board overlay/component placement reference: [../../assets/reference/senaino-ch340-components-silkscreen.png](../../assets/reference/senaino-ch340-components-silkscreen.png)
 - Schematic PDF: [../../hardware/exports/senaino-ch340-schematic.pdf](../../hardware/exports/senaino-ch340-schematic.pdf)
 - BOM: [bill-of-materials.md](bill-of-materials.md)
 

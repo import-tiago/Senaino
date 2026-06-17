@@ -29,7 +29,7 @@ The work included schematic design, PCB layout, component selection, production 
 ```text
 assets/
   images/          Project photos and workshop/gallery images.
-  reference/       Visual references for assembly.
+  reference/       Board overlays and visual references for assembly.
 
 docs/
   ft232/           FT232 assembly, BOM, production and testing notes.
@@ -56,10 +56,10 @@ hardware/
 - [License notes](docs/licensing.md)
 - [Board variants](docs/variants.md)
 
-| Variant | Assembly | BOM | Production | Testing |
-|---|---|---|---|---|
-| FT232 | [Guide](docs/ft232/assembly-guide.md) | [BOM](docs/ft232/bill-of-materials.md) | [Files](docs/ft232/production.md) | [Checklist](docs/ft232/testing.md) |
-| CH340 | [Guide](docs/ch340/assembly-guide.md) | [BOM](docs/ch340/bill-of-materials.md) | [Files](docs/ch340/production.md) | [Checklist](docs/ch340/testing.md) |
+| Variant | Assembly | Board overlay | BOM | Production | Testing |
+|---|---|---|---|---|---|
+| FT232 | [Guide](docs/ft232/assembly-guide.md) | [Overlay](assets/reference/senaino-ft232-components-silkscreen.png) | [BOM](docs/ft232/bill-of-materials.md) | [Files](docs/ft232/production.md) | [Checklist](docs/ft232/testing.md) |
+| CH340 | [Guide](docs/ch340/assembly-guide.md) | [Overlay](assets/reference/senaino-ch340-components-silkscreen.png) | [BOM](docs/ch340/bill-of-materials.md) | [Files](docs/ch340/production.md) | [Checklist](docs/ch340/testing.md) |
 
 ## Hardware Files
 

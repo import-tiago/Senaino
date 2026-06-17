@@ -10,6 +10,7 @@ This release archives Senaino as a consolidated open hardware project with FT232
 - Open Gerber fabrication files for both variants.
 - ZIP fabrication packages.
 - Schematic PDF and image exports.
+- Board overlays/component placement references for both variants.
 - Bills of materials in XLSX and CSV formats.
 - Assembly guides.
 - Testing checklists.
@@ -25,6 +26,13 @@ This release archives Senaino as a consolidated open hardware project with FT232
 | Microcontroller | ATmega328P-PU | ATmega328P-PU |
 | Main clock | 16 MHz | 16 MHz |
 | USB-serial clock | Integrated/FT232RL | 12 MHz |
+
+## Assembly Overlays
+
+These overlays show where each component should be soldered on the PCB:
+
+- FT232 board overlay: [../assets/reference/senaino-ft232-components-silkscreen.png](../assets/reference/senaino-ft232-components-silkscreen.png)
+- CH340 board overlay: [../assets/reference/senaino-ch340-components-silkscreen.png](../assets/reference/senaino-ch340-components-silkscreen.png)
 
 ## Citation
 

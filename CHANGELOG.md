@@ -11,6 +11,12 @@
 - Extracted the FT232 Gerber files and added a ZIP fabrication package.
 - Removed the bundled driver executable from version control.
 
+## FT232 v1.0.0
+
+- Prepared the FT232 variant for citation and DOI-based release.
+- Added `CITATION.cff` and Zenodo metadata.
+- Clarified licensing for hardware design files and documentation assets.
+
 ## FT232 v1.0
 
 - Initial documented FT232 board version.

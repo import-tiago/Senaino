@@ -23,13 +23,13 @@ Use this checklist before giving a mounted board to a student or using it in cla
 
 1. Connect the board through USB.
 2. Confirm that the operating system detects a serial port.
-3. If the serial port does not appear, check [drivers.md](drivers.md).
+3. If the serial port does not appear, check [drivers.md](../drivers.md).
 4. Open the serial port with the Arduino IDE or another serial terminal.
 5. Confirm that reset and upload behavior are stable.
 
 ## Bootloader And Blink Test
 
-1. Burn the bootloader using the notes in [bootloader.md](bootloader.md).
+1. Burn the bootloader using the notes in [bootloader.md](../bootloader.md).
 2. Select the Arduino UNO-compatible target in the programming environment.
 3. Upload a Blink sketch.
 4. Confirm the expected LED behavior.
@@ -39,7 +39,7 @@ Use this checklist before giving a mounted board to a student or using it in cla
 
 - 5 V rail is stable.
 - No short is detected after power cycling.
-- USB serial port enumerates.
+- USB serial port enumerates through the CH340G interface.
 - Bootloader can be recorded.
 - Blink sketch uploads successfully.
 - Board resets correctly during upload.

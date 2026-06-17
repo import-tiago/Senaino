@@ -1,12 +1,12 @@
 {
-  "title": "Senaino FT232: Educational Arduino UNO-inspired open hardware board for SENAI students",
+  "title": "Senaino: Educational Arduino UNO-inspired open hardware board with FT232 and CH340 variants",
   "version": "1.0.0",
   "creators": [
     {
       "name": "Silva, Tiago"
     }
   ],
-  "description": "Senaino FT232 is an educational open hardware microcontroller board inspired by the Arduino UNO and adapted for SENAI classroom use in soldering, electronics and embedded programming training. This archive contains Eagle hardware sources, Gerber fabrication files, schematic exports, bill of materials, assembly documentation and testing notes.",
+  "description": "Senaino is an educational open hardware microcontroller board inspired by the Arduino UNO and adapted for SENAI classroom use in soldering, electronics and embedded programming training. This archive contains Eagle hardware sources, Gerber fabrication files, schematic exports, bills of materials, assembly documentation and testing notes for both FT232RL and CH340G USB-to-serial variants.",
   "keywords": [
     "open hardware",
     "electronics education",
@@ -14,6 +14,7 @@
     "Arduino-compatible",
     "ATmega328P",
     "FT232RL",
+    "CH340G",
     "SENAI"
   ],
   "license": "cern-ohl-s-2.0",
@@ -22,9 +23,14 @@
   "language": "eng",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/import-tiago/Senaino/tree/main",
+      "identifier": "https://github.com/import-tiago/Senaino",
       "relation": "isSupplementTo",
       "resource_type": "software"
+    },
+    {
+      "identifier": "https://zeptobars.com/en/read/FTDI-FT232RL-real-vs-fake-supereal",
+      "relation": "references",
+      "resource_type": "publication-article"
     }
   ]
 }

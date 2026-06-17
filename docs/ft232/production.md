@@ -1,6 +1,6 @@
 # Production Files
 
-The FT232 fabrication files are in [../hardware/gerbers/ft232-v1.0](../hardware/gerbers/ft232-v1.0).
+The FT232 fabrication files are in [../../hardware/gerbers/ft232-v1.0](../../hardware/gerbers/ft232-v1.0).
 
 ## Available Files
 
@@ -19,8 +19,8 @@ The FT232 fabrication files are in [../hardware/gerbers/ft232-v1.0](../hardware/
 
 ## Packages
 
-- Open files: [../hardware/gerbers/ft232-v1.0](../hardware/gerbers/ft232-v1.0)
-- ZIP package: [../hardware/gerbers/ft232-v1.0/senaino-ft232-v1.0-gerbers.zip](../hardware/gerbers/ft232-v1.0/senaino-ft232-v1.0-gerbers.zip)
+- Open files: [../../hardware/gerbers/ft232-v1.0](../../hardware/gerbers/ft232-v1.0)
+- ZIP package: [../../hardware/gerbers/ft232-v1.0/senaino-ft232-v1.0-gerbers.zip](../../hardware/gerbers/ft232-v1.0/senaino-ft232-v1.0-gerbers.zip)
 
 ## Fabrication Notes
 

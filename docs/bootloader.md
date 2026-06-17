@@ -1,6 +1,6 @@
 # Bootloader Notes
 
-Senaino uses an ATmega328P-PU with a 16 MHz crystal, so it can be programmed using the same general workflow used for Arduino UNO-compatible boards.
+Senaino uses an ATmega328P-PU with a 16 MHz crystal in both variants, so it can be programmed using the same general workflow used for Arduino UNO-compatible boards.
 
 ## Typical Workflow
 

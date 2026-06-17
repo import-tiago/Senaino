@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Consolidated FT232 and CH340 into the `main` branch.
+- Preserved CH340 hardware files, documentation, BOM, schematic exports and Gerbers in variant-specific folders.
+- Added FT232 sourcing-risk context and CH340 justification with a ZeptoBars reference.
+- Updated citation metadata for a single consolidated DOI release.
 - Reorganized the repository for portfolio presentation.
 - Added dedicated documentation for assembly, testing, drivers, bootloader, variants and production.
 - Added design decision and contribution notes.

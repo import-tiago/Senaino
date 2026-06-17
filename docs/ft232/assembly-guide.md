@@ -4,8 +4,8 @@ This guide is intended for classroom assembly of the Senaino FT232 board.
 
 ## Reference Files
 
-- Component placement reference: [../assets/reference/senaino-ft232-components-silkscreen.png](../assets/reference/senaino-ft232-components-silkscreen.png)
-- Schematic PDF: [../hardware/exports/senaino-ft232-schematic.pdf](../hardware/exports/senaino-ft232-schematic.pdf)
+- Component placement reference: [../../assets/reference/senaino-ft232-components-silkscreen.png](../../assets/reference/senaino-ft232-components-silkscreen.png)
+- Schematic PDF: [../../hardware/exports/senaino-ft232-schematic.pdf](../../hardware/exports/senaino-ft232-schematic.pdf)
 - BOM: [bill-of-materials.md](bill-of-materials.md)
 
 ## Recommended Assembly Order

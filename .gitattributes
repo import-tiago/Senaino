@@ -10,3 +10,17 @@ hardware/exports/** linguist-vendored
 hardware/gerbers/** linguist-vendored
 *.xlsx linguist-vendored
 *.zip linguist-vendored
+
+*.gbr -text
+*.gbrjob -text
+*.xln -text
+*.top -text
+*.bot -text
+*.smt -text
+*.smb -text
+*.skt -text
+*.skb -text
+*.drd -text
+*.dri -text
+*.drl -text
+*.gpi -text

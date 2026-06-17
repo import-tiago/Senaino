@@ -9,11 +9,11 @@ Senaino is an educational microcontroller board inspired by the Arduino UNO and 
 
 ![Senaino FT232 assembled board](assets/images/senaino-ft232-mounted-board.jpg)
 
-## Portfolio Case
+## Overview
 
-This project is both a working board and a teaching artifact. The goal was not only to make an Arduino-compatible board, but to create a reproducible hardware kit that could be fabricated, assembled and tested by students in a classroom or lab environment.
+The goal was not only to make an Arduino-compatible board, but to create a reproducible hardware kit that could be fabricated, assembled and tested by students in a classroom or lab environment.
 
-My work included schematic design, PCB layout, component selection, production files, assembly references, documentation and validation of the mounted board.
+The work included schematic design, PCB layout, component selection, production files, assembly references, documentation and validation of the mounted board.
 
 ## Highlights
 

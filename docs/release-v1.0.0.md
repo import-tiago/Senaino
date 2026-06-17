@@ -31,8 +31,8 @@ This release archives Senaino as a consolidated open hardware project with FT232
 
 These overlays show where each component should be soldered on the PCB:
 
-- FT232 board overlay: [../assets/reference/senaino-ft232-components-silkscreen.png](../assets/reference/senaino-ft232-components-silkscreen.png)
-- CH340 board overlay: [../assets/reference/senaino-ch340-components-silkscreen.png](../assets/reference/senaino-ch340-components-silkscreen.png)
+- FT232 board overlay: [assets/reference/senaino-ft232-components-silkscreen.png](https://github.com/import-tiago/Senaino/blob/main/assets/reference/senaino-ft232-components-silkscreen.png)
+- CH340 board overlay: [assets/reference/senaino-ch340-components-silkscreen.png](https://github.com/import-tiago/Senaino/blob/main/assets/reference/senaino-ch340-components-silkscreen.png)
 
 ## Citation
 

@@ -1,0 +1,24 @@
+Partlist exported from C:/Users/Tiago Silva/Desktop/New folder (3)/Senaino/0. Project/Senaino.sch at 09/11/2019 11:14
+
+Qty Value         Device               Package             Parts              Description                          MF MPN OC_FARNELL OC_NEWARK PROD_ID  SPICEMODEL SPICEPREFIX SPICETYPE VALUE 
+3                 LED3MM               LED3MM              LED1, LED2, LED3   LED                                                                                                              
+1                 PINHD-1X10_ARD       1X10                DIGITAL2           PIN HEADER                                                                                                       
+1                 PINHD-1X6            1X06                ANALOG             PIN HEADER                                                                                                       
+2                 PINHD-1X8            1X08                DIGITAL1, POWER    PIN HEADER                                                                                                       
+1                 PN61729              PN61729             X2                 BERG USB connector                                                                                               
+1                 POWERSUPPLY_DC21MMX  POWERSUPPLY_DC-21MM X1                                                                                                                                  
+5   100 nF        C-EU025-024X044      C025-024X044        C2, C3, C4, C7, C8 CAPACITOR, European symbol                                                           C                           
+1   100uF         CPOL-EUE2-5          E2-5                C1                 POLARIZED CAPACITOR, European symbol                                                 C                           
+1   10k           R-EU_0204/7          0204/7              R5                 RESISTOR, European symbol                                                            R                           
+1   12 MHz        CRYSTALHC49S         HC49/S              Q2                 CRYSTAL                                     1667008    unknown                                                   
+1   16 MHz        CRYSTALHC49S         HC49/S              Q1                 CRYSTAL                                     1667008    unknown                                                   
+1   1N4007        1N4148DO35-7         DO35-7              D1                 DIODE                                                                                                            
+1   1N4728        1N4728               DO41Z10             D3                 Z DIODE                                                                                                          
+4   1k            R-EU_0204/7          0204/7              R3, R4, R6, R7     RESISTOR, European symbol                                                            R                           
+4   22 pF         C-EU025-024X044      C025-024X044        C5, C6, C15, C16   CAPACITOR, European symbol                                                           C                           
+2   330R          R-EU_0204/7          0204/7              R1, R2             RESISTOR, European symbol                                                            R                           
+1   7805T         7805T                TO220H              U3                 Positive VOLTAGE REGULATOR                                                                                       
+1   ATMEGA328P-PU ATMEGA328P-PU        DIL28-3             U1                 MICROCONTROLLER                                                                                                  
+1   BAT43         SCHOTTKY-DIODEDO35-7 DIODE_DO35-7        D2                 Schottky Diode                                                            NONE       D           diode           
+1   CH340G        CH340GSMD            SO016               U4                 A simple USB 2.0 to Serial IC.                                   IC-13498                                  CH340G
+3   FIDUCIALMOUNT FIDUCIALMOUNT        FIDUCIA-MOUNT       FD1, FD2, FD3                                                                                                                       

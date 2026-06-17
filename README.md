@@ -1,66 +1,90 @@
-# Senaino (CH340)
-[![Version](https://img.shields.io/badge/Version-FT232-blue.svg)](https://github.com/TiagoPaulaSilva/Senaino) [![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/TiagoPaulaSilva/Senaino)
+# Senaino CH340
 
-[![Version](https://img.shields.io/badge/Version-CH340-blue.svg)](https://github.com/TiagoPaulaSilva/Senaino/tree/CH340) [![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/TiagoPaulaSilva/Senaino/tree/CH340)
+[![Hardware](https://img.shields.io/badge/hardware-open%20source-2f855a.svg)](LICENSE)
+[![Variant](https://img.shields.io/badge/variant-CH340-blue.svg)](hardware/eagle)
+[![Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](CHANGELOG.md)
+[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
 
-[![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+Senaino CH340 is the lower-cost USB-to-serial variant of the Senaino educational microcontroller board. It keeps the same classroom goal as the FT232 version: helping SENAI students practice soldering, electronics, bootloader recording and embedded programming with components that are easy to source in Brazil.
 
+![Senaino CH340 assembled board](assets/images/senaino-ch340-mounted-board.jpg)
 
-Senaino is a board inspired by Arduino UNO. With components that can easily be found in Brazil, this board will allow the students of SENAI (an important school of technical education in Brazil) to learn about soldering, electronics and programming.
+## Portfolio Case
 
-![Image](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Mounted%20Board%20Photo.jpeg)
+This branch documents the CH340G variant. The main engineering difference is the USB-to-serial interface: this version uses a CH340G instead of the FT232RL used by the main branch. That makes the board more cost-sensitive while preserving the educational workflow.
 
-| ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(1).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(4).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(3).jpg) |
-|--|--|--|
-| ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(2).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(6).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(5).jpg) |
-| ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(7).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(8).jpg) | ![](https://github.com/TiagoPaulaSilva/Senaino/blob/master/3.%20Others/Images/IMG%20(9).jpg) |
+My work included schematic design, PCB layout, component selection, production files, assembly references, documentation and validation of the mounted board.
 
-## Recommended CH340 Driver: [CH340](https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip)
+## Highlights
 
-## Bootloader
-For extremely optimized bootloader burning, see my new project: [GimmeSoul](https://github.com/TiagoPaulaSilva/GimmeSoul)
+- Arduino UNO-inspired board based on the ATmega328P-PU.
+- CH340G USB-to-serial interface for a lower-cost production option.
+- 16 MHz ATmega328P clock plus 12 MHz CH340G clock.
+- Through-hole component strategy for beginner-friendly soldering practice.
+- Open hardware files for Eagle, Gerber fabrication, schematic export and BOM.
+- Dedicated assembly, testing, driver and bootloader documentation.
 
-## Schematic
-![image](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Schematic.png)
+## Repository Map
 
-## Bill of Materials
-To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/Senaino/blob/CH340/2.%20Mounting/Components%20Silk%20Screen.png)
+```text
+assets/
+  images/          Project photos.
+  reference/       Visual references for assembly.
 
-| Qty | Parts | Description | Value | Package |
-|--|--|--|--|--|
-1|R2|PTH Resistor|150Ω ±5%|CR25 (1/4W)
-1|R1|PTH Resistor|330Ω ±5%|CR25 (1/4W)
-4|R3/R4/R6/R7|PTH Resistor|1 kΩ ±5%|CR25 (1/4W)
-1|R5|PTH Resistor|10 kΩ ±5%|CR25 (1/4W)
-5|C2/C3/C4/C7/C8|PTH Ceramic Capacitor|100 nF x 50 V|Disc
-4|C5/C6/C15/C16|PTH Ceramic Capacitor|22 pF x 50 V|Disc
-1|C1|PTH Electrolytic Capacitor|100 uF x 35 V|Radial
-1|D1|PTH Rectifier Diode|1N4007|DO-41
-1|D2|PTH Schottky Diode|BAT43|DO-35
-1|D3|PTH Zener Diode|1N4728|DO-41
-1|LED1|PTH LED|Green|3mm
-2|LED2/LED3|PTH LED|Yellow|3mm
-1|Q1|PTH Crystal|16 MHz|HC49/S
-1|Q2|PTH Crystal|12 MHz|HC49/S
-1|U1|PTH Microcontroller|ATmega328P-PU|DIP-28N
-1|U1|PTH IC Socket|28 Pins|DIP-28N
-1|U4|SMD USB/Serial Converter|CH340G|SOP-16
-1|U3|PTH Voltage Regulator|L7805CV|TO-220
-1|X1|PTH Connector|Jack J4|2.1 mm (3 Terminals)
-1|X2|PTH Connector|Female USB Type-B|PCB 90°
-1|-|PTH Pin Header|Female 180°|1x10
-2|-|PTH Pin Header|Female 180°|1x8
-1|-|PTH Pin Header|Female 180°|1x6
+docs/
+  assembly-guide.md
+  bill-of-materials.md
+  bootloader.md
+  design-decisions.md
+  drivers.md
+  production.md
+  testing.md
+  variants.md
 
-### Contributing
-0. Give this project a :star:
-1. Create an issue and describe your idea.
-2. [Fork it](https://github.com/TiagoPaulaSilva/Senaino/fork).
-3. Create your feature branch (`git checkout -b my-new-feature`).
-4. Commit your changes (`git commit -a -m "Added feature title"`).
-5. Publish the branch (`git push origin my-new-feature`).
-6. Create a new pull request.
-7. Done! :heavy_check_mark:
+hardware/
+  bom/             Spreadsheet and CSV bill of materials.
+  eagle/           Original Eagle schematic and board files.
+  exports/         Schematic image/PDF exports.
+  gerbers/         Fabrication files.
+```
 
-### License Information
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Senaino</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/TiagoPaulaSilva" property="cc:attributionName" rel="cc:attributionURL">Tiago Silva</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="[Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3)" rel="dct:source">[Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3)</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/tiagopsilvaa" rel="cc:morePermissions">tiagodepaulasilva@gmail.com</a>.
+## Documentation
+
+- [Assembly guide](docs/assembly-guide.md)
+- [Bill of materials](docs/bill-of-materials.md)
+- [Bootloader notes](docs/bootloader.md)
+- [Design decisions](docs/design-decisions.md)
+- [Driver notes](docs/drivers.md)
+- [Production files](docs/production.md)
+- [Testing checklist](docs/testing.md)
+- [Board variants](docs/variants.md)
+
+## Hardware Files
+
+- Eagle schematic: [hardware/eagle/Senaino.sch](hardware/eagle/Senaino.sch)
+- Eagle board: [hardware/eagle/Senaino.brd](hardware/eagle/Senaino.brd)
+- Schematic PDF: [hardware/exports/senaino-ch340-schematic.pdf](hardware/exports/senaino-ch340-schematic.pdf)
+- Gerber package: [hardware/gerbers/ch340-v1.0](hardware/gerbers/ch340-v1.0)
+- BOM spreadsheet: [hardware/bom/senaino-ch340-bom.xlsx](hardware/bom/senaino-ch340-bom.xlsx)
+- BOM CSV: [hardware/bom/senaino-ch340-bom.csv](hardware/bom/senaino-ch340-bom.csv)
+
+## Board Variants
+
+The `CH340` branch documents this lower-cost version. The FT232 version is available in the [`main`](https://github.com/import-tiago/Senaino/tree/main) branch.
+
+| Variant | USB-serial IC | Main advantage | Recommended use |
+|---|---|---|---|
+| FT232 | FT232RL | Traditional and widely documented | Original classroom version |
+| CH340 | CH340G | Lower component cost | Cost-sensitive production |
+
+## Credits
+
+Senaino was designed by Tiago Silva for educational use with [SENAI](https://www.sp.senai.br/) students. The board is inspired by the Arduino UNO reference design and keeps the educational spirit of open hardware.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).

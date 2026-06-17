@@ -1,10 +1,12 @@
 *.sch linguist-language=Eagle
 *.brd linguist-language=Eagle
-
-special-vendored-path/* linguist-vendored
 *.sch linguist-vendored=false
 *.brd linguist-vendored=false
-
-
 *.sch linguist-detectable=true
 *.brd linguist-detectable=true
+
+assets/** linguist-vendored
+hardware/exports/** linguist-vendored
+hardware/gerbers/** linguist-vendored
+*.xlsx linguist-vendored
+*.zip linguist-vendored

@@ -1,8 +1,6 @@
 # Senaino
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20736332.svg)](https://doi.org/10.5281/zenodo.20736332)
 [![Hardware](https://img.shields.io/badge/hardware-open%20source-2f855a.svg)](LICENSE)
-[![Variants](https://img.shields.io/badge/variants-FT232%20%2B%20CH340-blue.svg)](docs/variants.md)
-[![Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CERN--OHL--S--2.0%20%2B%20CC--BY--SA--4.0-lightgrey.svg)](LICENSE)
 
 Senaino is an educational microcontroller board inspired by the Arduino UNO and adapted for technical training at SENAI. It was designed to help students practice soldering, electronics, bootloader recording and embedded programming with components that are easy to source in Brazil.

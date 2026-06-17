@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use, manufacture, teach with, or cite this hardware design, please cite it as below."
+type: dataset
+title: "Senaino CH340: Lower-cost educational Arduino UNO-inspired open hardware board for SENAI students"
+authors:
+  - family-names: "Silva"
+    given-names: "Tiago"
+version: "1.0.0"
+date-released: "2026-06-17"
+abstract: "Senaino CH340 is a lower-cost educational open hardware microcontroller board inspired by the Arduino UNO and adapted for SENAI classroom use in soldering, electronics and embedded programming training."
+keywords:
+  - open hardware
+  - electronics education
+  - PCB design
+  - Arduino-compatible
+  - ATmega328P
+  - CH340G
+  - SENAI
+license: "CERN-OHL-S-2.0"
+repository-code: "https://github.com/import-tiago/Senaino"
+url: "https://github.com/import-tiago/Senaino/tree/CH340"
+preferred-citation:
+  type: generic
+  title: "Senaino CH340: Lower-cost educational Arduino UNO-inspired open hardware board for SENAI students"
+  authors:
+    - family-names: "Silva"
+      given-names: "Tiago"
+  year: 2026
+  version: "1.0.0"
+  url: "https://github.com/import-tiago/Senaino/tree/CH340"

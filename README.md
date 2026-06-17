@@ -3,7 +3,7 @@
 [![Hardware](https://img.shields.io/badge/hardware-open%20source-2f855a.svg)](LICENSE)
 [![Variant](https://img.shields.io/badge/variant-CH340-blue.svg)](hardware/eagle)
 [![Status](https://img.shields.io/badge/status-finished-brightgreen.svg)](CHANGELOG.md)
-[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-CERN--OHL--S--2.0%20%2B%20CC--BY--SA--4.0-lightgrey.svg)](LICENSE)
 
 Senaino CH340 is the lower-cost USB-to-serial variant of the Senaino educational microcontroller board. It keeps the same classroom goal as the FT232 version: helping SENAI students practice soldering, electronics, bootloader recording and embedded programming with components that are easy to source in Brazil.
 
@@ -53,8 +53,10 @@ hardware/
 - [Assembly guide](docs/assembly-guide.md)
 - [Bill of materials](docs/bill-of-materials.md)
 - [Bootloader notes](docs/bootloader.md)
+- [Citation and DOI guide](docs/citation.md)
 - [Design decisions](docs/design-decisions.md)
 - [Driver notes](docs/drivers.md)
+- [License notes](docs/licensing.md)
 - [Production files](docs/production.md)
 - [Testing checklist](docs/testing.md)
 - [Board variants](docs/variants.md)
@@ -81,10 +83,14 @@ The `CH340` branch documents this lower-cost version. The FT232 version is avail
 
 Senaino was designed by Tiago Silva for educational use with [SENAI](https://www.sp.senai.br/) students. The board is inspired by the Arduino UNO reference design and keeps the educational spirit of open hardware.
 
+## Citation
+
+Citation metadata is available in [CITATION.cff](CITATION.cff). For DOI-based citation, archive a GitHub release through Zenodo after enabling the repository in Zenodo.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+The hardware design files are licensed under CERN-OHL-S-2.0. Documentation, images and educational material are licensed under CC BY-SA 4.0. See [LICENSE](LICENSE) and [docs/licensing.md](docs/licensing.md).

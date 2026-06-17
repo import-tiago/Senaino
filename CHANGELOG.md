@@ -11,6 +11,12 @@
 - Extracted the CH340 Gerber package into open fabrication files.
 - Removed the bundled driver executable from version control.
 
+## CH340 v1.0.0
+
+- Prepared the CH340 variant for citation and DOI-based release.
+- Added `CITATION.cff` and Zenodo metadata.
+- Clarified licensing for hardware design files and documentation assets.
+
 ## CH340 v1.0
 
 - Initial documented CH340 board version.

@@ -4,7 +4,7 @@ Senaino has two documented USB-to-serial variants.
 
 | Variant | Branch | USB-serial IC | Notes |
 |---|---|---|---|
-| FT232 | `master` | FT232RL | Original version documented in this branch. |
+| FT232 | `main` | FT232RL | Original version documented in the main branch. |
 | CH340 | `CH340` | CH340G | Lower-cost alternative available in the CH340 branch. |
 
 ## FT232 Version

@@ -70,7 +70,7 @@ hardware/
 
 ## Board Variants
 
-The `master` branch documents the FT232 version. A lower-cost CH340 version is available in the [`CH340`](https://github.com/import-tiago/Senaino/tree/CH340) branch.
+The `main` branch documents the FT232 version. A lower-cost CH340 version is available in the [`CH340`](https://github.com/import-tiago/Senaino/tree/CH340) branch.
 
 | Variant | USB-serial IC | Main advantage | Recommended use |
 |---|---|---|---|

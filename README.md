@@ -93,7 +93,7 @@ Senaino was designed by Tiago Silva for educational use with [SENAI](https://www
 
 ## Citation
 
-Citation metadata is available in [CITATION.cff](CITATION.cff). For DOI-based citation, archive a GitHub release from the `main` branch through Zenodo after enabling the repository in Zenodo.
+Citation metadata is available in [CITATION.cff](CITATION.cff).
 
 ## Contributing
 
